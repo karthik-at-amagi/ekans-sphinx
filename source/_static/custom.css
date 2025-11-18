@@ -1,0 +1,10 @@
+/* This targets the logo and ensures no filter is applied */
+.site-logo {
+    filter: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 2000px !important;
+  }
+}
