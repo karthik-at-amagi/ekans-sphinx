@@ -133,6 +133,7 @@ name = "ekans-sphinx"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "certifi" },
     { name = "dotenv" },
     { name = "myst-parser" },
     { name = "sphinx" },
@@ -142,6 +143,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "certifi", specifier = ">=2025.11.12" },
     { name = "dotenv", specifier = ">=0.9.9" },
     { name = "myst-parser", specifier = ">=4.0.1" },
     { name = "sphinx", specifier = ">=8.2.3" },

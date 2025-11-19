@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "certifi>=2025.11.12",
     "dotenv>=0.9.9",
     "myst-parser>=4.0.1",
     "sphinx>=8.2.3",

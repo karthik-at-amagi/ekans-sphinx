@@ -45,10 +45,11 @@ html_css_files = ["custom.css"]
 #
 confluence_publish = True
 confluence_space_key = "TESTSPHINX"
-# confluence_ask_password = False
+confluence_ask_password = False
+confluence_disable_ssl_validation = False
 # (for Confluence Cloud)
 confluence_server_url = "https://amagiengg.atlassian.net/wiki/"
-confluence_server_user = ""
+confluence_server_user = "dulam.karthik@amagi.com"
 confluence_publish_dry_run = True
 confluence_api_token = os.getenv("CONFLUENCE_API_TOKEN")
 
