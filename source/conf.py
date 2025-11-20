@@ -31,14 +31,7 @@ exclude_patterns = []
 html_permalinks_icon = "<span>#</span>"
 html_theme = "sphinxawesome_theme"
 html_static_path = ["_static"]
-html_logo = "_static/ekans_no_bkg.png"
-# html_theme_options = {
-#     "logo": {
-#         "image_light": "_static/ekans_no_bkg.png",
-#         "image_dark": "_static/ekans_no_bkg.png",
-#         "alt_text": "Your Project Logo",
-#     }
-# }
+html_logo = "_static/ekans.png"
 html_css_files = ["custom.css"]
 
 # -- Confluence Integration ---------------------------------------------------
