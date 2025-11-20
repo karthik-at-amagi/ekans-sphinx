@@ -3,8 +3,24 @@
     filter: none !important;
 }
 
+/* Increase logo size near the site title in the top header */
+header img[alt="Logo"] {
+    height: 66px !important;
+    width: auto !important;
+}
+
+/* Keep it slightly smaller on small screens */
 @media screen and (max-width: 768px) {
-  img {
-    width: 2000px !important;
+  header img[alt="Logo"] {
+    height: 58px !important;
+    width: auto !important;
   }
 }
+
+/* Prevent dark-mode inversion on the EKANS logo in header and sidebar */
+html.dark header img[alt="Logo"],
+html.dark #left-sidebar img[alt="Logo"] {
+    filter: none !important;
+}
+
+
